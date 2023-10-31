@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B57860542AF1C03E0007E133 /* neuroV1.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B57860532AF1C03E0007E133 /* neuroV1.mlpackage */; };
+		B582125F2ABAA91900463997 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582125E2ABAA91900463997 /* ImageCollectionViewCell.swift */; };
 		B5A5DA522AA2A77D00C1D0E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA512AA2A77D00C1D0E5 /* AppDelegate.swift */; };
 		B5A5DA542AA2A77D00C1D0E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA532AA2A77D00C1D0E5 /* SceneDelegate.swift */; };
 		B5A5DA562AA2A77D00C1D0E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA552AA2A77D00C1D0E5 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		B5A5DA692AA2A77E00C1D0E5 /* NeuroStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA682AA2A77E00C1D0E5 /* NeuroStyleTests.swift */; };
 		B5A5DA732AA2A77E00C1D0E5 /* NeuroStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA722AA2A77E00C1D0E5 /* NeuroStyleUITests.swift */; };
 		B5A5DA752AA2A77E00C1D0E5 /* NeuroStyleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA742AA2A77E00C1D0E5 /* NeuroStyleUITestsLaunchTests.swift */; };
+		B5A5DA852AA2F37900C1D0E5 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A5DA842AA2F37900C1D0E5 /* PresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B57860532AF1C03E0007E133 /* neuroV1.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = neuroV1.mlpackage; path = "../../../NueroStyle/ada-conv-pytorch/coreMLArtifacts/neuroV1.mlpackage"; sourceTree = "<group>"; };
+		B582125E2ABAA91900463997 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		B5A5DA4E2AA2A77D00C1D0E5 /* NeuroStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A5DA512AA2A77D00C1D0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5A5DA532AA2A77D00C1D0E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		B5A5DA6E2AA2A77E00C1D0E5 /* NeuroStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A5DA722AA2A77E00C1D0E5 /* NeuroStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroStyleUITests.swift; sourceTree = "<group>"; };
 		B5A5DA742AA2A77E00C1D0E5 /* NeuroStyleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroStyleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5A5DA842AA2F37900C1D0E5 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		B5A5DA502AA2A77D00C1D0E5 /* NeuroStyle */ = {
 			isa = PBXGroup;
 			children = (
+				B57860532AF1C03E0007E133 /* neuroV1.mlpackage */,
 				B5A5DA512AA2A77D00C1D0E5 /* AppDelegate.swift */,
 				B5A5DA532AA2A77D00C1D0E5 /* SceneDelegate.swift */,
-				B5A5DA552AA2A77D00C1D0E5 /* ViewController.swift */,
+				B5A5DA812AA2F21700C1D0E5 /* Views */,
 				B5A5DA572AA2A77D00C1D0E5 /* Main.storyboard */,
 				B5A5DA5A2AA2A77E00C1D0E5 /* Assets.xcassets */,
 				B5A5DA5C2AA2A77E00C1D0E5 /* LaunchScreen.storyboard */,
@@ -125,6 +132,16 @@
 				B5A5DA742AA2A77E00C1D0E5 /* NeuroStyleUITestsLaunchTests.swift */,
 			);
 			path = NeuroStyleUITests;
+			sourceTree = "<group>";
+		};
+		B5A5DA812AA2F21700C1D0E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5A5DA552AA2A77D00C1D0E5 /* ViewController.swift */,
+				B5A5DA842AA2F37900C1D0E5 /* PresentViewController.swift */,
+				B582125E2ABAA91900463997 /* ImageCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57860542AF1C03E0007E133 /* neuroV1.mlpackage in Sources */,
 				B5A5DA562AA2A77D00C1D0E5 /* ViewController.swift in Sources */,
+				B582125F2ABAA91900463997 /* ImageCollectionViewCell.swift in Sources */,
 				B5A5DA522AA2A77D00C1D0E5 /* AppDelegate.swift in Sources */,
+				B5A5DA852AA2F37900C1D0E5 /* PresentViewController.swift in Sources */,
 				B5A5DA542AA2A77D00C1D0E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +494,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
